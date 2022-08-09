@@ -1,0 +1,59 @@
+(footprint "JBC210" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -10.17 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp de12be5a-2662-4521-be1c-7fc887f90336)
+  )
+  (fp_text value "JBC210" (at 0 -8.67 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d731c1e2-4c77-405d-87f8-8e63386a8f39)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -7.17 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0faf61a1-9090-4ee8-a40d-692b5b451aa6)
+  )
+  (fp_line (start -19.4 2.2) (end -0.6 2.2) (layer "Edge.Cuts") (width 0.1) (tstamp 2305b56a-1f1b-4be7-8f89-3cf01d79b6e2))
+  (fp_line (start 0 1.6) (end 11.6 1.6) (layer "Edge.Cuts") (width 0.1) (tstamp 2c36b696-c56b-46da-9fae-ff3fcba9d25c))
+  (fp_line (start 12 1.2) (end 21 1.2) (layer "Edge.Cuts") (width 0.1) (tstamp 3aa0a4ce-6bb7-4191-98e2-5d564f4e4a30))
+  (fp_line (start 11.6 1.6) (end 12 1.2) (layer "Edge.Cuts") (width 0.1) (tstamp 4ad3979f-fbbe-48b6-b8cd-d696828c0656))
+  (fp_line (start 12 -1.2) (end 21 -1.2) (layer "Edge.Cuts") (width 0.1) (tstamp 79db748c-6a2f-4361-9377-61c00eb83df5))
+  (fp_line (start -19.4 2.2) (end -20 2.8) (layer "Edge.Cuts") (width 0.1) (tstamp 82fef83d-5dc5-47d5-8491-12bbaf253e17))
+  (fp_line (start -19.4 -2.2) (end -0.6 -2.2) (layer "Edge.Cuts") (width 0.1) (tstamp 934d0673-e8f2-47de-b67d-3269987548e0))
+  (fp_line (start 0 -1.6) (end 11.6 -1.6) (layer "Edge.Cuts") (width 0.1) (tstamp 9ebbab1a-e74e-487d-81fa-d43bd767ec41))
+  (fp_line (start -0.6 2.2) (end 0 1.6) (layer "Edge.Cuts") (width 0.1) (tstamp a0963c56-3b6c-4090-bd04-8810f2e433e4))
+  (fp_line (start 11.6 -1.6) (end 12 -1.2) (layer "Edge.Cuts") (width 0.1) (tstamp abde6eeb-a89d-4642-91e0-7e8c54a21ffe))
+  (fp_line (start -19.4 -2.2) (end -20 -2.8) (layer "Edge.Cuts") (width 0.1) (tstamp c2de9595-8897-4351-b2ac-652e955a97c6))
+  (fp_line (start 21 -1.2) (end 21 1.2) (layer "Edge.Cuts") (width 0.1) (tstamp dd38909c-0a99-4da9-bd71-4641d14fbbf1))
+  (fp_line (start 0 -1.6) (end -0.6 -2.2) (layer "Edge.Cuts") (width 0.1) (tstamp e07ec49a-a1e0-46be-a6ac-e393804541c5))
+  (pad "1" thru_hole roundrect (at -10 3.2 180) (size 6 2) (drill 0.3) (layers *.Cu *.Mask) (remove_unused_layers) (keep_end_layers) (roundrect_rratio 0.25)
+    (chamfer_ratio 0) (chamfer bottom_left bottom_right) (tstamp b336112e-af72-4ac3-a2a4-21ba47580894))
+  (pad "1" thru_hole roundrect (at -10 -3.2) (size 6 2) (drill 0.3) (layers *.Cu *.Mask) (remove_unused_layers) (keep_end_layers) (roundrect_rratio 0.25)
+    (chamfer_ratio 0) (chamfer bottom_left bottom_right) (tstamp f4fbdecc-f87a-4d79-bd55-d09f417e0a1a))
+  (pad "2" thru_hole roundrect (at 6 2.6 180) (size 6 2) (drill 0.3) (layers *.Cu *.Mask) (remove_unused_layers) (keep_end_layers) (roundrect_rratio 0.25)
+    (chamfer_ratio 0) (chamfer bottom_left bottom_right) (tstamp 77bab463-1a31-4da3-962e-109fa176d5d0))
+  (pad "2" thru_hole roundrect (at 6 -2.6) (size 6 2) (drill 0.3) (layers *.Cu *.Mask) (remove_unused_layers) (keep_end_layers) (roundrect_rratio 0.25)
+    (chamfer_ratio 0) (chamfer bottom_left bottom_right) (tstamp da4d1b12-29fa-44f0-ae92-e05ea6bacab8))
+  (pad "3" thru_hole roundrect (at 16.5 2.2 180) (size 6 2) (drill 0.3) (layers *.Cu *.Mask) (remove_unused_layers) (keep_end_layers) (roundrect_rratio 0.25)
+    (chamfer_ratio 0) (chamfer bottom_left bottom_right) (tstamp 6ac99643-7ed1-4f4d-bbfa-2dd3cbd5af4c))
+  (pad "3" thru_hole roundrect (at 16.5 -2.2) (size 6 2) (drill 0.3) (layers *.Cu *.Mask) (remove_unused_layers) (keep_end_layers) (roundrect_rratio 0.25)
+    (chamfer_ratio 0) (chamfer bottom_left bottom_right) (tstamp e37fcc15-8f4a-4199-b2e2-425a007f3ccc))
+  (group "" (id 9c6fb889-b575-4caf-914d-21353770b89c)
+    (members
+      2305b56a-1f1b-4be7-8f89-3cf01d79b6e2
+      2c36b696-c56b-46da-9fae-ff3fcba9d25c
+      3aa0a4ce-6bb7-4191-98e2-5d564f4e4a30
+      4ad3979f-fbbe-48b6-b8cd-d696828c0656
+      79db748c-6a2f-4361-9377-61c00eb83df5
+      82fef83d-5dc5-47d5-8491-12bbaf253e17
+      934d0673-e8f2-47de-b67d-3269987548e0
+      9ebbab1a-e74e-487d-81fa-d43bd767ec41
+      a0963c56-3b6c-4090-bd04-8810f2e433e4
+      abde6eeb-a89d-4642-91e0-7e8c54a21ffe
+      c2de9595-8897-4351-b2ac-652e955a97c6
+      dd38909c-0a99-4da9-bd71-4641d14fbbf1
+      e07ec49a-a1e0-46be-a6ac-e393804541c5
+    )
+  )
+)
