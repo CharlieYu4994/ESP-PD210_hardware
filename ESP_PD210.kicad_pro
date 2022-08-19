@@ -145,12 +145,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|1384300|1536700|f5876276-e3b1-4bef-bd60-032939062a0a|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|1384300|1562100|9d12669a-d5ff-4965-b3c9-7240dff05d06|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|457200|1587500|a91d04f8-477d-41ff-821d-cc66a5154e4e|00000000-0000-0000-0000-000000000000",
-      "power_pin_not_driven|736600|787400|7920163c-35c5-4c82-aef7-a92af79a9759|00000000-0000-0000-0000-000000000000"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -393,7 +388,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ESP_PD210.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

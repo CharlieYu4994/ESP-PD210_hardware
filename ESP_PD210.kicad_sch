@@ -4802,7 +4802,7 @@
     (in_bom yes) (on_board yes)
     (uuid d2aeacdf-d9b9-4b18-ae2f-946cbfd5b011)
     (property "Reference" "U3" (id 0) (at 193.04 82.55 0))
-    (property "Value" "AD8628" (id 1) (at 193.04 85.09 0))
+    (property "Value" "OPA188" (id 1) (at 193.04 85.09 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 186.69 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5596,7 +5596,7 @@
       (reference "U2") (unit 1) (value "ESP8684") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm")
     )
     (path "/d2aeacdf-d9b9-4b18-ae2f-946cbfd5b011"
-      (reference "U3") (unit 1) (value "AD8628") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+      (reference "U3") (unit 1) (value "OPA188") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/dade225f-9c7e-4650-bb58-a3ad4a9eac4c"
       (reference "U4") (unit 1) (value "JW5017S") (footprint "Package_TO_SOT_SMD:SOT-23-6")
